@@ -1,8 +1,10 @@
 {
   "name": "tiptap-extension-iframely",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Tiptap extension for adding embedded content with Iframely.",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": {
@@ -42,7 +44,11 @@
     "type": "git",
     "url": "git+https://github.com/haydenbleasel/tiptap-extension-iframely.git"
   },
-  "keywords": ["iframely", "tiptap", "extension"],
+  "keywords": [
+    "iframely",
+    "tiptap",
+    "extension"
+  ],
   "author": "Hayden Bleasel <hello@haydenbleasel.com>",
   "license": "ISC",
   "bugs": {
