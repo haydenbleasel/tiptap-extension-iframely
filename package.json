@@ -51,7 +51,7 @@
   "homepage": "https://github.com/haydenbleasel/tiptap-extension-iframely#readme",
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "@types/node": "^22.2.0",
+    "@types/node": "^22.4.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
