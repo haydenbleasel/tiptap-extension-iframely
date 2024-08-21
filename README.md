@@ -30,6 +30,19 @@ const editor = new Editor({
 });
 ```
 
+Once it's installed, you can add a new Iframely node with:
+
+```ts
+const src = ''; // The URL you want to embed!
+
+editor
+  .chain()
+  .focus()
+  .deleteRange(range)
+  .setIframelyEmbed({ src })
+  .run();
+```
+
 I also recommend adding the following Tailwind CSS to your project:
 
 ```css
