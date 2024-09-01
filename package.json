@@ -64,7 +64,7 @@
     "react-dom": "^18.3.1",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4",
-    "ultracite": "4.0.5"
+    "ultracite": "4.0.6"
   },
   "dependencies": {
     "@tiptap/core": "^2.6.4",
