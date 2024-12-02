@@ -1,6 +1,6 @@
 {
   "name": "tiptap-extension-iframely",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Tiptap extension for adding embedded content with Iframely.",
   "files": [
     "dist"
