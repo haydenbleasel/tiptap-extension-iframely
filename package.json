@@ -57,19 +57,19 @@
   "homepage": "https://github.com/haydenbleasel/tiptap-extension-iframely#readme",
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@types/node": "^22.4.0",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "tsup": "^8.2.4",
-    "typescript": "^5.5.4",
-    "ultracite": "4.1.7"
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "ultracite": "4.1.8"
   },
   "dependencies": {
-    "@tiptap/core": "^2.6.4",
-    "@tiptap/pm": "^2.6.4",
-    "@tiptap/react": "^2.6.4"
+    "@tiptap/core": "^2.10.3",
+    "@tiptap/pm": "^2.10.3",
+    "@tiptap/react": "^2.10.3"
   },
   "peerDependencies": {
     "react": "^18.3.1",
