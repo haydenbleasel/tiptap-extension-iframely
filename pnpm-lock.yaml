@@ -19,7 +19,7 @@ importers:
         version: 2.10.3
       '@tiptap/react':
         specifier: ^2.10.3
-        version: 2.10.3(@tiptap/core@2.10.3(@tiptap/pm@2.10.3))(@tiptap/pm@2.10.3)(react-dom@19.0.0(react@19.1.0))(react@19.1.0)
+        version: 2.11.7(@tiptap/core@2.10.3(@tiptap/pm@2.10.3))(@tiptap/pm@2.10.3)(react-dom@19.0.0(react@19.1.0))(react@19.1.0)
       '@types/node':
         specifier: ^22.10.1
         version: 22.13.16
@@ -377,14 +377,14 @@ packages:
     peerDependencies:
       '@tiptap/pm': ^2.7.0
 
-  '@tiptap/extension-bubble-menu@2.10.3':
-    resolution: {integrity: sha512-e9a4yMjQezuKy0rtyyzxbV2IAE1bm1PY3yoZEFrcaY0o47g1CMUn2Hwe+9As2HdntEjQpWR7NO1mZeKxHlBPYA==}
+  '@tiptap/extension-bubble-menu@2.11.7':
+    resolution: {integrity: sha512-0vYqSUSSap3kk3/VT4tFE1/6StX70I3/NKQ4J68ZSFgkgyB3ZVlYv7/dY3AkEukjsEp3yN7m8Gw8ei2eEwyzwg==}
     peerDependencies:
       '@tiptap/core': ^2.7.0
       '@tiptap/pm': ^2.7.0
 
-  '@tiptap/extension-floating-menu@2.10.3':
-    resolution: {integrity: sha512-Prg8rYLxeyzHxfzVu1mDkkUWMnD9ZN3y370O/1qy55e+XKVw9jFkTSuz0y0+OhMJG6bulYpDUMtb+N3+2xOWlQ==}
+  '@tiptap/extension-floating-menu@2.11.7':
+    resolution: {integrity: sha512-DG54WoUu2vxHRVzKZiR5I5RMOYj45IlxQMkBAx1wjS0ch41W8DUYEeipvMMjCeKtEI+emz03xYUcOAP9LRmg+w==}
     peerDependencies:
       '@tiptap/core': ^2.7.0
       '@tiptap/pm': ^2.7.0
@@ -392,8 +392,8 @@ packages:
   '@tiptap/pm@2.10.3':
     resolution: {integrity: sha512-771p53aU0KFvujvKpngvq2uAxThlEsjYaXcVVmwrhf0vxSSg+psKQEvqvWvHv/3BwkPVCGwmEKNVJZjaXFKu4g==}
 
-  '@tiptap/react@2.10.3':
-    resolution: {integrity: sha512-5GBL3arWai8WZuCl1MMA7bT5aWwqDi5AOQhX+hovKjwHvttpKDogRoUBL5k6Eds/eQMBMGTpsfmZlGNiFxSv1g==}
+  '@tiptap/react@2.11.7':
+    resolution: {integrity: sha512-gQZEUkAoPsBptnB4T2gAtiUxswjVGhfsM9vOElQco+b11DYmy110T2Zuhg+2YGvB/CG3RoWJx34808P0FX1ijA==}
     peerDependencies:
       '@tiptap/core': ^2.7.0
       '@tiptap/pm': ^2.7.0
@@ -846,10 +846,10 @@ packages:
   undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
-  use-sync-external-store@1.2.2:
-    resolution: {integrity: sha512-PElTlVMwpblvbNqQ82d2n6RjStvdSoNe9FG28kNfz3WiXilJm4DdNkEzRhCZuIDwY8U08WVihhGR5iRqAwfDiw==}
+  use-sync-external-store@1.5.0:
+    resolution: {integrity: sha512-Rb46I4cGGVBmjamjphe8L/UnvJD+uPPtTkNvX5mZgqdbavhI4EbgIWJiIHXJ8bc/i9EQGPRh4DwEURJ552Do0A==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   w3c-keyname@2.2.8:
     resolution: {integrity: sha512-dpojBhNsCNN7T82Tm7k26A6G9ML3NkhDsnw9n/eoxSRlVBB4CEtIQ/KTCLI2Fwf3ataSXRhYFkQi3SlnFwPvPQ==}
@@ -1076,13 +1076,13 @@ snapshots:
     dependencies:
       '@tiptap/pm': 2.10.3
 
-  '@tiptap/extension-bubble-menu@2.10.3(@tiptap/core@2.10.3(@tiptap/pm@2.10.3))(@tiptap/pm@2.10.3)':
+  '@tiptap/extension-bubble-menu@2.11.7(@tiptap/core@2.10.3(@tiptap/pm@2.10.3))(@tiptap/pm@2.10.3)':
     dependencies:
       '@tiptap/core': 2.10.3(@tiptap/pm@2.10.3)
       '@tiptap/pm': 2.10.3
       tippy.js: 6.3.7
 
-  '@tiptap/extension-floating-menu@2.10.3(@tiptap/core@2.10.3(@tiptap/pm@2.10.3))(@tiptap/pm@2.10.3)':
+  '@tiptap/extension-floating-menu@2.11.7(@tiptap/core@2.10.3(@tiptap/pm@2.10.3))(@tiptap/pm@2.10.3)':
     dependencies:
       '@tiptap/core': 2.10.3(@tiptap/pm@2.10.3)
       '@tiptap/pm': 2.10.3
@@ -1109,17 +1109,17 @@ snapshots:
       prosemirror-transform: 1.10.2
       prosemirror-view: 1.37.0
 
-  '@tiptap/react@2.10.3(@tiptap/core@2.10.3(@tiptap/pm@2.10.3))(@tiptap/pm@2.10.3)(react-dom@19.0.0(react@19.1.0))(react@19.1.0)':
+  '@tiptap/react@2.11.7(@tiptap/core@2.10.3(@tiptap/pm@2.10.3))(@tiptap/pm@2.10.3)(react-dom@19.0.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@tiptap/core': 2.10.3(@tiptap/pm@2.10.3)
-      '@tiptap/extension-bubble-menu': 2.10.3(@tiptap/core@2.10.3(@tiptap/pm@2.10.3))(@tiptap/pm@2.10.3)
-      '@tiptap/extension-floating-menu': 2.10.3(@tiptap/core@2.10.3(@tiptap/pm@2.10.3))(@tiptap/pm@2.10.3)
+      '@tiptap/extension-bubble-menu': 2.11.7(@tiptap/core@2.10.3(@tiptap/pm@2.10.3))(@tiptap/pm@2.10.3)
+      '@tiptap/extension-floating-menu': 2.11.7(@tiptap/core@2.10.3(@tiptap/pm@2.10.3))(@tiptap/pm@2.10.3)
       '@tiptap/pm': 2.10.3
       '@types/use-sync-external-store': 0.0.6
       fast-deep-equal: 3.1.3
       react: 19.1.0
       react-dom: 19.0.0(react@19.1.0)
-      use-sync-external-store: 1.2.2(react@19.1.0)
+      use-sync-external-store: 1.5.0(react@19.1.0)
 
   '@types/estree@1.0.6': {}
 
@@ -1589,7 +1589,7 @@ snapshots:
 
   undici-types@6.20.0: {}
 
-  use-sync-external-store@1.2.2(react@19.1.0):
+  use-sync-external-store@1.5.0(react@19.1.0):
     dependencies:
       react: 19.1.0
 
