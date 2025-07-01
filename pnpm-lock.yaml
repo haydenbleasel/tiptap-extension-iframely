@@ -37,10 +37,10 @@ importers:
         version: 19.0.0(react@19.1.0)
       tsup:
         specifier: ^8.3.5
-        version: 8.3.5(typescript@5.7.2)
+        version: 8.3.5(typescript@5.8.3)
       typescript:
         specifier: ^5.7.2
-        version: 5.7.2
+        version: 5.8.3
       ultracite:
         specifier: 4.2.0
         version: 4.2.0
@@ -831,8 +831,8 @@ packages:
       typescript:
         optional: true
 
-  typescript@5.7.2:
-    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1553,7 +1553,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tsup@8.3.5(typescript@5.7.2):
+  tsup@8.3.5(typescript@5.8.3):
     dependencies:
       bundle-require: 5.0.0(esbuild@0.24.2)
       cac: 6.7.14
@@ -1572,14 +1572,14 @@ snapshots:
       tinyglobby: 0.2.9
       tree-kill: 1.2.2
     optionalDependencies:
-      typescript: 5.7.2
+      typescript: 5.8.3
     transitivePeerDependencies:
       - jiti
       - supports-color
       - tsx
       - yaml
 
-  typescript@5.7.2: {}
+  typescript@5.8.3: {}
 
   uc.micro@2.1.0: {}
 
